@@ -1,16 +1,24 @@
-double calc(double x,double y,double z)  {
-	
-	double a;
+#include <math.h>
 
-	double b;	
-	double c;
-	double d;
+
+double calc(double x, double y, double z)  {
+	double a;
+	double a0,a1,a2,g,j;
 	
-	b=pow(x,y+1)/pow(x-y,1/z);
-	c=y/(4*abs(x+y));
-	d=pow(x,1/abs(sin(y)));
+	if (sin(y)<0) g=-sin(y);
+	else g=sin(y);
+	if ((x+y)<0) j=-(x+y);
+	else j=(x+y);
 	
-	a=b+c+d;
+	
+	if(sin(y)==0 || z==0 || (x-y)<=0 || (x+y)==0 || (x-y)==0 || x<0 ) return NAN;
+	
+	
+   	a0=pow(x,y+1)/pow(x-y,1/z);
+	a1=y/(4*j);
+	a2=pow(x,1/g);
+	
+	a=a0+a1+a2;
 
 	return a;
 }
