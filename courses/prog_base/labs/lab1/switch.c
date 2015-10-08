@@ -5,9 +5,10 @@
 int exec(int op, int a, int b) {
    int result;
    int c,k;
+   c=b;
    int PI=3.14;
    k=b%8;
-   if (op<0) {op=-op; c=b; b=a; a=c;}
+   if (op<0) {op=-op; b=a; a=c;}
    switch(op) {
               case 0:
                    result=-a;break;
