@@ -24,13 +24,13 @@ int satisfies(int a, int b,int c) {
             else return 0;
             }
     if (a<0 || b<0 || c <0) {
-            if(a<0 && b>0 && c>0) {if(a>(-256)) return 1; else return 0;}
-            else if (b<0 && a>0 && c>0) {if(b>(-256)) return 1; else return 0;}
-            else if(c<0 && a>0 && b>0) {if(c>(-256)) return 1; else return 0;}
+            if(a<0 && b>=0 && c>=0) {if(a>(-256)) return 1; else return 0;}
+            else if (b<0 && a>=0 && c>=0) {if(b>(-256)) return 1; else return 0;}
+            else if(c<0 && a>=0 && b>=0) {if(c>(-256)) return 1; else return 0;}
             
-            if(a<0 && b<0 && c>0) {if((a+b)*3>(-256)) return 1; else return 0;}
-            else if (a<0 && c<0 && b>0) {if((a+c)*3>(-256)) return 1; else return 0;}
-            else if(b<0 && c<0 && a>0) {if((b+c)*3>(-256)) return 1; else return 0;}
+            if(a<0 && b<0 && c>=0) {if((a+b)*3>(-256)) return 1; else return 0;}
+            else if (a<0 && c<0 && b>=0) {if((a+c)*3>(-256)) return 1; else return 0;}
+            else if(b<0 && c<0 && a>=0) {if((b+c)*3>(-256)) return 1; else return 0;}
             }
     if (a>=0 && b>=0 && c>=0) {
             if(a>b && a>c) max=a;
