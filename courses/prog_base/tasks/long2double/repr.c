@@ -1,7 +1,7 @@
 #include <math.h>
 #include <stdio.h>
 
-double long2double(long long)
+double long2double(long long b)
 {
 
 long long b;
