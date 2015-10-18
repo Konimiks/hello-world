@@ -5,7 +5,7 @@ double long2double(long long b)
 {
 
 short znak, i;
-double Man, result;
+double Man=0.0, result;
 int E;
 if ((b>>63)==0){
 znak = 0;
