@@ -8,7 +8,6 @@ long long b;
 short znak, i;
 double Man, result;
 int E;
-b = 4620000000000000000;
 if ((b>>63)==0){
 znak = 0;
 E = (b>>52);
