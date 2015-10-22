@@ -4,13 +4,10 @@
 
 void fillRand(int mat[4][4]){
     int i,j;
-    srand(time(0));
-    for (i=0; i<4; i++)  {
-        for (j=0; j<4; j++)  {
+    srand(time(NULL));
+    for (i=0; i<4; i++)
+        for (j=0; j<4; j++)
             mat [i][j] = rand() % 1999-999 ;
-
-        }
-    }
 }
 
 void rotateCCW90(int mat[4][4]){
@@ -38,7 +35,7 @@ void flipH(int mat[4][4]) {
 
 
 void transposSide(int mat[4][4]){
-int i,j;
+ int i,j;
  int mat2 [4][4];
  for(i=0; i<4; i++)
         for(j=0;j<4;j++)
