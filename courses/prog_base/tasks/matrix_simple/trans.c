@@ -42,5 +42,5 @@ void transposSide(int mat[4][4]){
             mat2[i][j]=mat[i][j];
     for(i=0; i<4; i++)
         for(j=0;j<4;j++)
-            mat[i][j]=mat2[3-j][i];
+            mat[i][j]=mat2[3-j][3-i];
 }
