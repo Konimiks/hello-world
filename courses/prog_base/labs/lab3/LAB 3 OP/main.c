@@ -35,6 +35,13 @@ int main (void)
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
     COORD pos;
     START:;
+    for(pos.Y = 0; pos.Y < 40 ;pos.Y++)
+        for(pos.X = 0; pos.X < 80; pos.X++)
+    {
+        SetConsoleCursorPosition(hConsole, pos);
+        SetConsoleTextAttribute(hConsole, Standart);
+        puts(" ");
+    }
     for(pos.Y = 7; pos.Y <= 19; pos.Y+=12 )
     {
         for(pos.X = 20; pos.X <= 59; pos.X++ )
@@ -88,7 +95,16 @@ int main (void)
     pos.X = 39;
     SetConsoleCursorPosition(hConsole, pos);
     scanf("%i", &elemc);
-    for(;elemc < 1 || elemc > 100;)
+    if(elemc < 1 || elemc > 100){
+        SetConsoleTextAttribute(hConsole, red);
+        pos.X = 28;
+        pos.Y = 16;
+        SetConsoleCursorPosition(hConsole, pos);
+        printf("Invalid input, try again");
+        Sleep(4000);
+        goto START;
+    }
+    /*for(;elemc < 1 || elemc > 100;)
     {
         SetConsoleTextAttribute(hConsole, red);
         pos.X = 28;
@@ -106,7 +122,7 @@ int main (void)
         SetConsoleCursorPosition(hConsole, pos);
         SetConsoleTextAttribute(hConsole, greenForeground);
         scanf("%i", &elemc);
-    }
+    }*/
     for(pos.Y = 0; pos.Y < 30; pos.Y++)
         for(pos.X = 0; pos.X < 80; pos.X++)
     {
