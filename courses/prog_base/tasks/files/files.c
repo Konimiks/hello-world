@@ -43,7 +43,8 @@ void fprocess(const char * pread, const char * pwrite){
                 }
         }
 	}
-
+    for(int i = 0; i < wordsnumber; i++)
+        fprintf(fw, "%i, ", wordslen[i]);
 	fclose(fr);
 	fclose(fw);
 }
