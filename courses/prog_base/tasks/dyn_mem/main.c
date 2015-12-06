@@ -41,7 +41,9 @@ char isCapital(char * string)
             number = string[*i];
         if(string[*i] == '\0')
         {
+            free(i);
             return number;
         }
     }
+
 }
