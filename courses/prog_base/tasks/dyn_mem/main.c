@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-char isCapital(char * string);
 
 int main(void) {
 
@@ -15,13 +14,7 @@ int main(void) {
     printf("Enter your string (not more than 49 symbols and English)::");
     gets(string);
     printf("%s\n", string);
-    printf("%c", isCapital(string));
-    free(string);
-    return 0;
-}
 
-char isCapital(char * string)
-{
     char * number = NULL;
     number = malloc(sizeof(char) * 1);
     if(NULL == number)
@@ -42,8 +35,13 @@ char isCapital(char * string)
         if(string[*i] == '\0')
         {
             free(i);
-            return number;
+            break;
         }
     }
 
+    printf("%c", number);
+    free(string);
+    free(number);
+    return 0;
 }
+
