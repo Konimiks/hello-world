@@ -29,11 +29,17 @@ char isCapital(char * string)
         return EXIT_FAILURE;
     }
     number = '0';
-    for(int i = 0; i <= 49; i++)
+    int * i = NULL;
+    i = malloc(sizeof(int) * 1);
+    if(NULL == i)
     {
-        if(string[i] <= 'Z' && string[i] >= 'A')
-            number = string[i];
-        if(string[i] == '\0')
+        return EXIT_FAILURE;
+    }
+    for((*i) = 0; (*i) <= 49; (*i)++)
+    {
+        if(string[*i] <= 'Z' && string[*i] >= 'A')
+            number = string[*i];
+        if(string[*i] == '\0')
         {
             return number;
         }
