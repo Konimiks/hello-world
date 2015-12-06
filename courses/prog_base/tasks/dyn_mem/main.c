@@ -16,6 +16,7 @@ int main(void) {
     gets(string);
     printf("%s\n", string);
     printf("%c", isCapital(string));
+    free(string);
     return 0;
 }
 
@@ -24,13 +25,17 @@ char isCapital(char * string)
     char * number = NULL;
     number = malloc(sizeof(char) * 1);
     if(NULL == number)
+    {
         return EXIT_FAILURE;
+    }
     number = '0';
     for(int i = 0; i <= 49; i++)
     {
         if(string[i] <= 'Z' && string[i] >= 'A')
             number = string[i];
         if(string[i] == '\0')
+        {
             return number;
+        }
     }
 }
