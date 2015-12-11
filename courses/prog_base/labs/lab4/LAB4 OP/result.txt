@@ -1,0 +1,9 @@
+0 Kiev
+1 Lviv
+2 Odessa
+3 Kharkiv
+4 Chernigov
+5 Lugansk
+6 GOT
+roads:
+2 0 0 1 1 0 0 0 2 1 0 0 1 0 0 1 2 1 0 0 0 1 0 1 2 0 0 0 1 0 0 0 2 1 0 0 1 0 0 1 2 0 0 0 0 0 0 0 2 
