@@ -16,10 +16,10 @@ int main(void){
 
 char elemfirst(char * str, char * p)
 {
-    if(*p == *(p + 1))
-        return *p;
-    else if(*p == '\0')
+    if(*(p + 1) == '\0')
         return '0';
-    else elemfirst(str, p + 1);
+    else if(*p == *(p + 1))
+        return *p;
+    else return elemfirst(str, p + 1);
 
 }
