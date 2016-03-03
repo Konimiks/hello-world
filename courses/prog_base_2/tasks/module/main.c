@@ -23,5 +23,9 @@ int main(void){
     printf("%i\n", pos);
     int neg = list_get_count_negative(list1);
     printf("%i\n", neg);
+
+    list_free(list1);
+
+
     return 0;
 }
