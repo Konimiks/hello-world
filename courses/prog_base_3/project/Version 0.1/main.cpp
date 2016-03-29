@@ -29,7 +29,6 @@ public:
         texture.loadFromImage(image);
         sprite.setTexture(texture);
         sprite.setTextureRect(IntRect(90, 4, 29, 29));
-
     }
 
     	void interactionWithMap(int dir)
@@ -186,8 +185,6 @@ int main(void)
 
         window.draw(p.sprite);
         window.display();
-
-
     }
     return 0;
 }
