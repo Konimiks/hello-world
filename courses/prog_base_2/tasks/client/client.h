@@ -10,3 +10,4 @@ int sort_array(int * arr, int size);
 int post_array(char * output, char * address, int * arr, int size, SOCKET * socket);
 
 #endif // MY_CLIENT
+
