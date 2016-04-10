@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workers>
+    <worker>
+        <name>Jhon</name>
+        <surname>Gibson</surname>
+        <company post="developer">Samsung</company>
+        <salary>
+            <amount>3000.00</amount>
+            <valuta>dollar</valuta>
+        </salary>
+        <workingyears>5</workingyears>
+        <birthdate>1987-03-26</birthdate>
+    </worker>
+    <worker>
+        <name>Lasly</name>
+        <surname>Frenkins</surname>
+        <company post="developer">Apple</company>
+        <salary>
+            <amount>4000.00</amount>
+            <valuta>dollar</valuta>
+        </salary>
+        <workingyears>10</workingyears>
+        <birthdate>1981-06-26</birthdate>
+    </worker>
+    <worker>
+        <name>Gek</name>
+        <surname>Stone</surname>
+        <company post="security">Feni</company>
+        <salary>
+            <amount>3500.00</amount>
+            <valuta>ghrivna</valuta>
+        </salary>
+        <workingyears>1</workingyears>
+        <birthdate>1995-08-16</birthdate>
+    </worker>
+    <worker>
+        <name>Kilo</name>
+        <surname>Hut</surname>
+        <company post="hostes">Door</company>
+        <salary>
+            <amount>1260.00</amount>
+            <valuta>euro</valuta>
+        </salary>
+        <workingyears>3</workingyears>
+        <birthdate>1989-11-14</birthdate>
+    </worker>
+    <worker>
+        <name>Jenny</name>
+        <surname>Kobolt</surname>
+        <company post="director">Dimer</company>
+        <salary>
+            <amount>4600.00</amount>
+            <valuta>euro</valuta>
+        </salary>
+        <workingyears>7</workingyears>
+        <birthdate>1978-10-30</birthdate>
+    </worker>
+</workers>
+
