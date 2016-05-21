@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1463828703 source:c:\2.репозиторий\hello-world\courses\prog_base_2\tests\test_1\libparkingandlist\list.c
+	<stdio.h>
+	<stdlib.h>
+	"list.h"
+
+1463828703 c:\2.репозиторий\hello-world\courses\prog_base_2\tests\test_1\libparkingandlist\list.h
+
