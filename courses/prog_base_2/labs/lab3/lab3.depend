@@ -1,0 +1,60 @@
+# depslib dependency file v1.0
+1463911195 source:c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab3\queue.c
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"queue.h"
+
+1463911140 c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab3\queue.h
+
+1463925851 source:c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab3\alert.c
+	<stdlib.h>
+	<stdio.h>
+	"alert.h"
+
+1463925850 c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab3\alert.h
+
+1463933828 source:c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab3\event.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<Windows.h>
+	"alert.h"
+	"event.h"
+
+1463913932 c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab3\event.h
+	"user.h"
+	"queue.h"
+
+1463918061 c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab3\user.h
+
+1463934104 source:c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<conio.h>
+	"queue.h"
+	"event.h"
+	"user.h"
+	"alert.h"
+	"test.h"
+
+1463918224 source:c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab3\user.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"user.h"
+
+1463926084 source:c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab3\test.c
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<setjmp.h>
+	<cmocka.h>
+	"test.h"
+	"queue.h"
+
+1424096216 c:\program files (x86)\cmocka\include\cmocka.h
+
+1463911858 c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab3\test.h
+
