@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1463940069 source:c:\2.репозиторий\hello-world\courses\prog_base_2\tasks\nlp\list.c
+	<stdlib.h>
+	"list.h"
+
+1463940066 c:\2.репозиторий\hello-world\courses\prog_base_2\tasks\nlp\list.h
+	<stdlib.h>
+
+1463952139 source:c:\2.репозиторий\hello-world\courses\prog_base_2\tasks\nlp\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"types.h"
+
+1463953736 c:\2.репозиторий\hello-world\courses\prog_base_2\tasks\nlp\types.h
+	"list.h"
+
+1463954531 source:c:\2.репозиторий\hello-world\courses\prog_base_2\tasks\nlp\types.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"types.h"
+
