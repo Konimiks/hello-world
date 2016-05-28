@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1463806279 source:c:\progs\op\projects\courses\prog_base_2\tests\test_2\server\cjson.c
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<float.h>
+	<limits.h>
+	<ctype.h>
+	"cJSON.h"
+
+1463806279 c:\progs\op\projects\courses\prog_base_2\tests\test_2\server\cjson.h
+
+1464426477 source:c:\progs\op\projects\courses\prog_base_2\tests\test_2\server\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"socket.h"
+	"server.h"
+
+1464417854 c:\progs\op\projects\courses\prog_base_2\tests\test_2\server\socket.h
+
+1464426499 c:\progs\op\projects\courses\prog_base_2\tests\test_2\server\server.h
+	<stdio.h>
+	<stdlib.h>
+	"socket.h"
+
+1464426758 source:c:\progs\op\projects\courses\prog_base_2\tests\test_2\server\server.c
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	"string.h"
+	"socket.h"
+	"server.h"
+	"cJSON.h"
+
+1464417904 source:c:\progs\op\projects\courses\prog_base_2\tests\test_2\server\socket.c
+	<winsock2.h>
+	"socket.h"
+
+1463802679 source:c:\2.репозиторий\hello-world\courses\prog_base_2\tests\tets_2\server\cjson.c
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<float.h>
+	<limits.h>
+	<ctype.h>
+	"cJSON.h"
+
+1463802679 c:\2.репозиторий\hello-world\courses\prog_base_2\tests\tets_2\server\cjson.h
+
+1464423191 source:c:\2.репозиторий\hello-world\courses\prog_base_2\tests\tets_2\server\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"socket.h"
+	"server.h"
+
+1464414254 c:\2.репозиторий\hello-world\courses\prog_base_2\tests\tets_2\server\socket.h
+
+1464422899 c:\2.репозиторий\hello-world\courses\prog_base_2\tests\tets_2\server\server.h
+	<stdio.h>
+	<stdlib.h>
+	"socket.h"
+
+1464427426 source:c:\2.репозиторий\hello-world\courses\prog_base_2\tests\tets_2\server\server.c
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	"string.h"
+	"socket.h"
+	"server.h"
+	"cJSON.h"
+
+1464414304 source:c:\2.репозиторий\hello-world\courses\prog_base_2\tests\tets_2\server\socket.c
+	<winsock2.h>
+	"socket.h"
+
