@@ -38,7 +38,7 @@
 	<winsock2.h>
 	"socket.h"
 
-1463802679 source:c:\2.репозиторий\hello-world\courses\prog_base_2\tests\tets_2\server\cjson.c
+1463802679 source:d:\kr_2\server\cjson.c
 	<string.h>
 	<stdio.h>
 	<math.h>
@@ -48,23 +48,31 @@
 	<ctype.h>
 	"cJSON.h"
 
-1463802679 c:\2.репозиторий\hello-world\courses\prog_base_2\tests\tets_2\server\cjson.h
+1463802679 d:\kr_2\server\cjson.h
 
-1464423191 source:c:\2.репозиторий\hello-world\courses\prog_base_2\tests\tets_2\server\main.c
+1464432250 source:d:\kr_2\server\main.c
+	<stdlib.h>
+	<string.h>
+	"socket.h"
+	"server.h"
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"socket.h"
 	"server.h"
+	<winsock2.h>
+	<windows.h>
+	"cJSON.h"
+	<time.h>
 
-1464414254 c:\2.репозиторий\hello-world\courses\prog_base_2\tests\tets_2\server\socket.h
+1464414254 d:\kr_2\server\socket.h
 
-1464422899 c:\2.репозиторий\hello-world\courses\prog_base_2\tests\tets_2\server\server.h
+1464431871 d:\kr_2\server\server.h
 	<stdio.h>
 	<stdlib.h>
 	"socket.h"
 
-1464427426 source:c:\2.репозиторий\hello-world\courses\prog_base_2\tests\tets_2\server\server.c
+1464432278 source:d:\kr_2\server\server.c
 	<stdio.h>
 	<stdlib.h>
 	<stddef.h>
@@ -73,7 +81,50 @@
 	"server.h"
 	"cJSON.h"
 
-1464414304 source:c:\2.репозиторий\hello-world\courses\prog_base_2\tests\tets_2\server\socket.c
+1464414304 source:d:\kr_2\server\socket.c
+	<winsock2.h>
+	"socket.h"
+
+1463802680 source:c:\2.репозиторий\hello-world\courses\prog_base_2\tests\tets_2\server\cjson.c
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<float.h>
+	<limits.h>
+	<ctype.h>
+	"cJSON.h"
+
+1463802680 c:\2.репозиторий\hello-world\courses\prog_base_2\tests\tets_2\server\cjson.h
+
+1464435526 source:c:\2.репозиторий\hello-world\courses\prog_base_2\tests\tets_2\server\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"socket.h"
+	"server.h"
+	<winsock2.h>
+	<windows.h>
+	"cJSON.h"
+	<time.h>
+
+1464414256 c:\2.репозиторий\hello-world\courses\prog_base_2\tests\tets_2\server\socket.h
+
+1464431872 c:\2.репозиторий\hello-world\courses\prog_base_2\tests\tets_2\server\server.h
+	<stdio.h>
+	<stdlib.h>
+	"socket.h"
+
+1464432280 source:c:\2.репозиторий\hello-world\courses\prog_base_2\tests\tets_2\server\server.c
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	"string.h"
+	"socket.h"
+	"server.h"
+	"cJSON.h"
+
+1464414306 source:c:\2.репозиторий\hello-world\courses\prog_base_2\tests\tets_2\server\socket.c
 	<winsock2.h>
 	"socket.h"
 

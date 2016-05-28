@@ -33,14 +33,17 @@ http_request_t http_request_parse(const char * const request)
             pairEndPtr = cur + strlen(cur);
         }
         keyvalue_t kv;
+        // get key
         eqPtr = strchr(cur, '=');
         ptrdiff_t keyLen = eqPtr - cur;
         memcpy(kv.key, cur, keyLen);
         kv.key[keyLen] = '\0';
+        // get value
         eqPtr++;
         ptrdiff_t valueLen = pairEndPtr - eqPtr;
         memcpy(kv.value, eqPtr, valueLen);
         kv.value[valueLen] = '\0';
+        // insert key-value pair into request form list
         req.formLength += 1;
         req.form = realloc(req.form, sizeof(keyvalue_t) * req.formLength);
         req.form[req.formLength - 1] = kv;
@@ -65,4 +68,15 @@ void server_info(socket_t * client)
             "Content-Length: %zu\n"
             "\n%s", strlen(pageText), pageText);
     socket_write(client, homeBuf,sizeof(homeBuf));
+}
+
+
+void server_sent(socket_t* clientSocket, char* text)
+{
+    char buf[10000];
+    sprintf(buf,"\nHTTP1.1 200 OK\n"
+    "Content-Type: application/json\n"
+    "Content-Length: %i\r\n\r\n"
+    "%s\n",strlen(text),text);
+    socket_write_string(clientSocket,buf);
 }

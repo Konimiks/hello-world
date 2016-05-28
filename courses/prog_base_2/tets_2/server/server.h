@@ -17,3 +17,4 @@ typedef struct {
 
 void server_info(socket_t * client);
 http_request_t http_request_parse(const char * const request);
+void server_sent(socket_t* clientSocket, char* text);
