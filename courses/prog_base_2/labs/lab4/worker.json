@@ -1,0 +1,23 @@
+[
+	{
+        "name": "Gregor",
+		"surname": "Burn",
+		"birthdate": "1940-12-11",
+		"experience": 1,
+		"rating": 3.4
+	},
+	{
+		"name": "Emogu",
+		"surname": "Smirtus",
+		"birthdate": "1945-01-11",
+		"experience": 3,
+		"rating": 5.0
+	},
+	{
+		"name": "Santas",
+		"surname": "Jeffimton",
+		"birthdate": "1000-10-24",
+		"experience": 7,
+		"rating": 9.3
+	}
+]

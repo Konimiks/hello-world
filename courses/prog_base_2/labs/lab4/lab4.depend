@@ -1,0 +1,230 @@
+# depslib dependency file v1.0
+1463293074 source:c:\repository\repos1\courses\prog_base_2\labs\lab4\json\cjson.c
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<float.h>
+	<limits.h>
+	<ctype.h>
+	"cJSON.h"
+
+1463293074 c:\repository\repos1\courses\prog_base_2\labs\lab4\json\cjson.h
+
+1464635709 source:c:\repository\repos1\courses\prog_base_2\labs\lab4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<conio.h>
+	"http/http.h"
+	"worker/worker.h"
+	"socket/socket.h"
+	"read.h"
+
+1464380479 source:c:\repository\repos1\courses\prog_base_2\labs\lab4\worker\worker.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<windows.h>
+	"worker.h"
+	"../JSON/cJSON.h"
+
+1463957104 c:\repository\repos1\courses\prog_base_2\labs\lab4\worker\worker.h
+
+1463925664 source:c:\repository\repos1\courses\prog_base_2\labs\lab4\http\http.c
+	<stdlib.h>
+	<stdio.h>
+	<stddef.h>
+	<string.h>
+	"http.h"
+
+1463293074 c:\repository\repos1\courses\prog_base_2\labs\lab4\http\http.h
+
+1463293074 c:\repository\repos1\courses\prog_base_2\labs\lab4\socket\socket.h
+
+1463926278 source:c:\repository\repos1\courses\prog_base_2\labs\lab4\socket\socket_win.c
+	<winsock2.h>
+	"socket.h"
+
+1464871952 source:c:\repository\repos1\courses\prog_base_2\labs\lab4\server\server.c
+	<stdlib.h>
+	"../socket/socket.h"
+	"../worker/worker.h"
+	"server.h"
+	"../http/http.h"
+
+1464866844 c:\repository\repos1\courses\prog_base_2\labs\lab4\server\server.h
+	"../http/http.h"
+	"../socket/socket.h"
+	"../worker/worker.h"
+
+1463937870 source:c:\repository\repos1\courses\prog_base_2\labs\lab4\worker\worker.json
+
+1463955757 c:\repository\repos1\courses\prog_base_2\labs\lab4\read.h
+	"worker/worker.h"
+
+1463956492 source:c:\repository\repos1\courses\prog_base_2\labs\lab4\read.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"JSON/cJSON.h"
+	"worker/worker.h"
+	"read.h"
+
+1463939783 source:c:\repository\repos1\courses\prog_base_2\labs\lab4\server\server.h
+	"../http/http.h"
+	"../socket/socket.h"
+	"../worker/worker.h"
+
+1463293074 source:c:\repository\repos1\courses\prog_base_2\labs\lab4\socket\socket.h
+
+1463293074 source:c:\repository\repos1\courses\prog_base_2\labs\lab4\http\http.h
+
+1463955757 source:c:\repository\repos1\courses\prog_base_2\labs\lab4\read.h
+	"worker/worker.h"
+
+1463957104 source:c:\repository\repos1\courses\prog_base_2\labs\lab4\worker\worker.h
+
+1465035370 source:c:\users\Конимикс\downloads\repos1-master\repos1-master\courses\prog_base_2\labs\lab4\http\http.c
+	<stdlib.h>
+	<stdio.h>
+	<stddef.h>
+	<string.h>
+	"http.h"
+
+1465035370 c:\users\Конимикс\downloads\repos1-master\repos1-master\courses\prog_base_2\labs\lab4\http\http.h
+
+1465035370 source:c:\users\Конимикс\downloads\repos1-master\repos1-master\courses\prog_base_2\labs\lab4\json\cjson.c
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<float.h>
+	<limits.h>
+	<ctype.h>
+	"cJSON.h"
+
+1465035370 c:\users\Конимикс\downloads\repos1-master\repos1-master\courses\prog_base_2\labs\lab4\json\cjson.h
+
+1465146745 source:c:\users\Конимикс\downloads\repos1-master\repos1-master\courses\prog_base_2\labs\lab4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<conio.h>
+	"http/http.h"
+	"worker/worker.h"
+	"socket/socket.h"
+	"read.h"
+
+1465035370 c:\users\Конимикс\downloads\repos1-master\repos1-master\courses\prog_base_2\labs\lab4\worker\worker.h
+
+1465035370 c:\users\Конимикс\downloads\repos1-master\repos1-master\courses\prog_base_2\labs\lab4\socket\socket.h
+
+1465035370 c:\users\Конимикс\downloads\repos1-master\repos1-master\courses\prog_base_2\labs\lab4\read.h
+	"worker/worker.h"
+
+1465035370 source:c:\users\Конимикс\downloads\repos1-master\repos1-master\courses\prog_base_2\labs\lab4\read.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"JSON/cJSON.h"
+	"worker/worker.h"
+	"read.h"
+
+1465148256 source:c:\users\Конимикс\downloads\repos1-master\repos1-master\courses\prog_base_2\labs\lab4\server\server.c
+	<stdlib.h>
+	"../socket/socket.h"
+	"../worker/worker.h"
+	"server.h"
+	"../http/http.h"
+
+1465035370 c:\users\Конимикс\downloads\repos1-master\repos1-master\courses\prog_base_2\labs\lab4\server\server.h
+	"../http/http.h"
+	"../socket/socket.h"
+	"../worker/worker.h"
+
+1465035370 source:c:\users\Конимикс\downloads\repos1-master\repos1-master\courses\prog_base_2\labs\lab4\socket\socket_win.c
+	<winsock2.h>
+	"socket.h"
+
+1465035370 source:c:\users\Конимикс\downloads\repos1-master\repos1-master\courses\prog_base_2\labs\lab4\worker\worker.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<windows.h>
+	"worker.h"
+	"../JSON/cJSON.h"
+
+1465035370 source:c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab4\http\http.c
+	<stdlib.h>
+	<stdio.h>
+	<stddef.h>
+	<string.h>
+	"http.h"
+
+1465035370 c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab4\http\http.h
+
+1465035370 source:c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab4\json\cjson.c
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<float.h>
+	<limits.h>
+	<ctype.h>
+	"cJSON.h"
+
+1465035370 c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab4\json\cjson.h
+
+1465151808 source:c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<conio.h>
+	"http/http.h"
+	"worker/worker.h"
+	"socket/socket.h"
+	"read.h"
+
+1465035370 c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab4\worker\worker.h
+
+1465035370 c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab4\socket\socket.h
+
+1465035370 c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab4\read.h
+	"worker/worker.h"
+
+1465035370 source:c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab4\read.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"JSON/cJSON.h"
+	"worker/worker.h"
+	"read.h"
+
+1465152723 source:c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab4\server\server.c
+	<stdlib.h>
+	"../socket/socket.h"
+	"../worker/worker.h"
+	"server.h"
+	"../http/http.h"
+
+1465035370 c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab4\server\server.h
+	"../http/http.h"
+	"../socket/socket.h"
+	"../worker/worker.h"
+
+1465035370 source:c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab4\socket\socket_win.c
+	<winsock2.h>
+	"socket.h"
+
+1465035370 source:c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab4\worker\worker.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<windows.h>
+	"worker.h"
+	"../JSON/cJSON.h"
+

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="lab4" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/lab4" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lws2_32" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/lab4" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lws2_32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="JSON/cJSON.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="JSON/cJSON.h" />
+		<Unit filename="http/http.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="http/http.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="read.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="read.h" />
+		<Unit filename="server/server.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="server/server.h" />
+		<Unit filename="socket/socket.h" />
+		<Unit filename="socket/socket_win.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="worker.json" />
+		<Unit filename="worker/worker.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="worker/worker.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
