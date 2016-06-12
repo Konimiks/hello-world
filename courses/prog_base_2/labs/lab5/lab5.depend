@@ -1,0 +1,223 @@
+# depslib dependency file v1.0
+1464975589 source:c:\repository\repos1\courses\prog_base_2\labs\lab5\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"server/server.h"
+	"worker/worker.h"
+	"database.h"
+
+1465069941 source:c:\repository\repos1\courses\prog_base_2\labs\lab5\database.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<stdbool.h>
+	<sqlite3.h>
+	"database.h"
+	"worker/worker.h"
+
+1450771366 c:\repository\repos1\courses\prog_base_2\labs\lab5\sqlite\sqlite3.h
+	<stdarg.h>
+
+1465055571 c:\repository\repos1\courses\prog_base_2\labs\lab5\database.h
+	"worker/worker.h"
+	<stdbool.h>
+
+1464910680 c:\repository\repos1\courses\prog_base_2\labs\lab5\worker\worker.h
+
+1463925664 source:c:\repository\repos1\courses\prog_base_2\labs\lab5\http\http.c
+	<stdlib.h>
+	<stdio.h>
+	<stddef.h>
+	<string.h>
+	"http.h"
+
+1463293074 c:\repository\repos1\courses\prog_base_2\labs\lab5\http\http.h
+
+1463293074 source:c:\repository\repos1\courses\prog_base_2\labs\lab5\json\cjson.c
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<float.h>
+	<limits.h>
+	<ctype.h>
+	"cJSON.h"
+
+1463293074 c:\repository\repos1\courses\prog_base_2\labs\lab5\json\cjson.h
+
+1465071116 source:c:\repository\repos1\courses\prog_base_2\labs\lab5\server\server.c
+	<stdlib.h>
+	<stdbool.h>
+	"../socket/socket.h"
+	"../worker/worker.h"
+	"server.h"
+	"../database.h"
+	"../http/http.h"
+
+1463293074 c:\repository\repos1\courses\prog_base_2\labs\lab5\socket\socket.h
+
+1464975495 c:\repository\repos1\courses\prog_base_2\labs\lab5\server\server.h
+	"../http/http.h"
+	"../socket/socket.h"
+	"../worker/worker.h"
+
+1463926278 source:c:\repository\repos1\courses\prog_base_2\labs\lab5\socket\socket_win.c
+	<winsock2.h>
+	"socket.h"
+
+1464976914 source:c:\repository\repos1\courses\prog_base_2\labs\lab5\worker\worker.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"worker.h"
+	"../JSON/cJSON.h"
+
+1450771366 c:\libs\sqlite3\sqlite3.h
+	<stdarg.h>
+
+1465035370 source:c:\users\Конимикс\downloads\repos1-master\repos1-master\courses\prog_base_2\labs\lab5\database.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<stdbool.h>
+	<sqlite3.h>
+	"database.h"
+	"worker/worker.h"
+
+1465035370 c:\users\Конимикс\downloads\repos1-master\repos1-master\courses\prog_base_2\labs\lab5\sqlite\sqlite3.h
+	<stdarg.h>
+
+1465035370 c:\users\Конимикс\downloads\repos1-master\repos1-master\courses\prog_base_2\labs\lab5\database.h
+	"worker/worker.h"
+	<stdbool.h>
+
+1465035370 c:\users\Конимикс\downloads\repos1-master\repos1-master\courses\prog_base_2\labs\lab5\worker\worker.h
+
+1465035370 source:c:\users\Конимикс\downloads\repos1-master\repos1-master\courses\prog_base_2\labs\lab5\http\http.c
+	<stdlib.h>
+	<stdio.h>
+	<stddef.h>
+	<string.h>
+	"http.h"
+
+1465035370 c:\users\Конимикс\downloads\repos1-master\repos1-master\courses\prog_base_2\labs\lab5\http\http.h
+
+1465035370 source:c:\users\Конимикс\downloads\repos1-master\repos1-master\courses\prog_base_2\labs\lab5\json\cjson.c
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<float.h>
+	<limits.h>
+	<ctype.h>
+	"cJSON.h"
+
+1465035370 c:\users\Конимикс\downloads\repos1-master\repos1-master\courses\prog_base_2\labs\lab5\json\cjson.h
+
+1465035370 source:c:\users\Конимикс\downloads\repos1-master\repos1-master\courses\prog_base_2\labs\lab5\server\server.c
+	<stdlib.h>
+	<stdbool.h>
+	"../socket/socket.h"
+	"../worker/worker.h"
+	"server.h"
+	"../database.h"
+	"../http/http.h"
+
+1465035370 c:\users\Конимикс\downloads\repos1-master\repos1-master\courses\prog_base_2\labs\lab5\socket\socket.h
+
+1465035370 c:\users\Конимикс\downloads\repos1-master\repos1-master\courses\prog_base_2\labs\lab5\server\server.h
+	"../http/http.h"
+	"../socket/socket.h"
+	"../worker/worker.h"
+
+1465035370 source:c:\users\Конимикс\downloads\repos1-master\repos1-master\courses\prog_base_2\labs\lab5\socket\socket_win.c
+	<winsock2.h>
+	"socket.h"
+
+1465035370 source:c:\users\Конимикс\downloads\repos1-master\repos1-master\courses\prog_base_2\labs\lab5\worker\worker.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"worker.h"
+	"../JSON/cJSON.h"
+
+1465758919 source:c:\users\Конимикс\downloads\repos1-master\repos1-master\courses\prog_base_2\labs\lab5\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"server/server.h"
+	"worker/worker.h"
+	"database.h"
+
+1465035370 source:c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab5\database.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<stdbool.h>
+	<sqlite3.h>
+	"database.h"
+	"worker/worker.h"
+
+1465035370 c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab5\sqlite\sqlite3.h
+	<stdarg.h>
+
+1465035370 c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab5\database.h
+	"worker/worker.h"
+	<stdbool.h>
+
+1465035370 c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab5\worker\worker.h
+
+1465035370 source:c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab5\http\http.c
+	<stdlib.h>
+	<stdio.h>
+	<stddef.h>
+	<string.h>
+	"http.h"
+
+1465035370 c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab5\http\http.h
+
+1465035370 source:c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab5\json\cjson.c
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<float.h>
+	<limits.h>
+	<ctype.h>
+	"cJSON.h"
+
+1465035370 c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab5\json\cjson.h
+
+1465758919 source:c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab5\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"server/server.h"
+	"worker/worker.h"
+	"database.h"
+
+1465035370 c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab5\server\server.h
+	"../http/http.h"
+	"../socket/socket.h"
+	"../worker/worker.h"
+
+1465035370 c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab5\socket\socket.h
+
+1465035370 source:c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab5\socket\socket_win.c
+	<winsock2.h>
+	"socket.h"
+
+1465035370 source:c:\2.репозиторий\hello-world\courses\prog_base_2\labs\lab5\worker\worker.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"worker.h"
+	"../JSON/cJSON.h"
+
