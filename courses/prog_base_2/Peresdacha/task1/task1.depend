@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1465808450 source:c:\2.репозиторий\hello-world\courses\prog_base_2\tests\task1\func.c
+	"func.h"
+
+1465806880 c:\2.репозиторий\hello-world\courses\prog_base_2\tests\task1\func.h
+
+1465808369 source:c:\2.репозиторий\hello-world\courses\prog_base_2\tests\task1\main.c
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<setjmp.h>
+	<cmocka.h>
+	"func.h"
+
+1424096216 c:\program files (x86)\cmocka\include\cmocka.h
+
+1465808450 source:c:\2.репозиторий\hello-world\courses\prog_base_2\tests\peresdacha\task1\func.c
+	"func.h"
+
+1465806880 c:\2.репозиторий\hello-world\courses\prog_base_2\tests\peresdacha\task1\func.h
+
+1465809050 source:c:\2.репозиторий\hello-world\courses\prog_base_2\tests\peresdacha\task1\main.c
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<setjmp.h>
+	<cmocka.h>
+	"func.h"
+
