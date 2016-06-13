@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1463777469 source:c:\2.репозиторий\hello-world\courses\prog_base_2\tests\peresdacha\libstatictask2\list.c
+	<stdio.h>
+	<stdlib.h>
+	"list.h"
+
+1463777559 c:\2.репозиторий\hello-world\courses\prog_base_2\tests\peresdacha\libstatictask2\list.h
+
+1465812287 source:c:\2.репозиторий\hello-world\courses\prog_base_2\tests\peresdacha\libstatictask2\main.c
+	"chat.h"
+
+1465811185 c:\2.репозиторий\hello-world\courses\prog_base_2\tests\peresdacha\libstatictask2\chat.h
+	"list.h"
+
